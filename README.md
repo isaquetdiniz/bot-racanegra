@@ -36,4 +36,10 @@ Até agora o bot consegue responder bem ao comando, mas a seleção de links que
 
 1. Você deve criar uma conta no discord, pode fazer isso indo no site oficial [aqui](https://discord.com/)
 2. Agora que já tem uma conta, você precisar entrar na página de gerenciamento dos bots, que é essa [daqui](https://discord.com/developers/applications)
-3. Nela, você deve clicar em
+3. Nela, você deve clicar em **New Application**, depois dar um nome a sua aplicação e clicar em **CREATE**
+4. Pronto, agora você pode adicionar uma descrição e uma foto do seu bot, não é obrigatório mas é recomendado :)
+5. Na aba *Bot* você vai poder adicionar o seu bot ao discord seguindo os seguintes passos: **Add Bot** e depois, **Yes, i do it!** (Se ele der um erro relacioando ao nickname, você vai precisar trocar :( )
+6. Se ele apareceu, deu tudo certo! E agora precisamos adicioná-lo em algum canal, para isso vamos para *OAuth2* e selecionar a opção de **bot** e logo abaixo, dar as permissões que ele vai precisar, é meio óbvio que se você quer que ele se conecte ao chat de voz, precisará dar permissão para isso, idem para ler e enviar mensagens de textos. Para a versão inicial desse bot eu selecionei **Send Messages**, **Manage Messages** e **Send TTS Messages**, agora é só copiar o link que foi gerado, abrir uma nova aba do navegador e entrar nele.
+7. Na tela que foi aberta, é possível selecionar o canal que deseja adicioná-lo, e é importante lembrar que você deve ser administrador de um canal para conseguir adicionar um bot nele, após confirmar você vai receber uma mensagem dizendo se ocorreu tudo bem.
+8. Se tudo deu certo até aqui, quando abrir o canal no discord vai ser possível ver o bot que você criou no canal, mas offline. 
+9. Agora vamos colocá-lo no ar :).
