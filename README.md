@@ -51,12 +51,15 @@ Até agora o bot consegue responder bem ao comando, mas a seleção de links que
 - NPM
 
 1. Bem, como eu disse mais à cima, escolhi fazer o bot em javascript, e existe uma biblioteca prontíssima para colocarmos a mão na massa, ela se chama [DiscordJs](https://discord.js.org/#/).
+
 2. Com o node instalado, e o projeto baixado, o que precisamos fazer é abrir o terminal e navegar até a pasta do projeto, e então com
 ```
 npm install 
 ```
 instalamos todas as dependências que o projeto precisa, incluindo o DiscordJs e o dotenv.
-3. Antes de iniciar o projeto, é necessário abrir o arquivo `.envexample`, adicionar o TOKEN (Ir em *Bot* e clicar em **copy**) do seu bot no campo TOKEN, ele deveria ficar assim: `TOKEN=token-do-seu-bot`, e agora renomeamos o `.envexample` para `.env`
+
+3. Antes de iniciar o projeto, é necessário abrir o arquivo `.envexample`, adicionar o TOKEN (Ir em *Bot* e clicar em **copy**) do seu bot no campo TOKEN, ele deveria ficar assim: `TOKEN=token-do-seu-bot`, e agora renomeamos o `.envexample` para `.env`.
+
 4. Finalmente podemos iniciar o bot com: 
 ```
 node bot.js
