@@ -15,8 +15,8 @@ client.on('message', msg => {
     msg.reply('pong!');
   }
   if(msg.content === `${commandPrefix}pagodinho`){
-      const teste = pagodinho();
-      msg.reply(`Escuta essa daqui, é boa demais! ${teste}`);
+      const linkOfPagode = pagodinho();
+      msg.reply(`Escuta essa daqui, é boa demais! ${linkOfPagode}`);
   }
 });
 

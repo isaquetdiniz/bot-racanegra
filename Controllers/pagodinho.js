@@ -10,8 +10,8 @@ const pagodinho = () => {
         'https://www.youtube.com/watch?v=G92sz1aBrTU',
         'https://www.youtube.com/watch?v=Ze5w7YsVaRw',
     ]
-    const numeroMusica = Math.floor(Math.random() * (pagodes.length));
-    return pagodes[numeroMusica];
+    const numberMusica = Math.floor(Math.random() * (pagodes.length));
+    return pagodes[numberMusica];
 }
 
 module.exports = pagodinho;
