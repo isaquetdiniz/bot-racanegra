@@ -48,13 +48,13 @@ Até agora o bot consegue responder bem ao comando, mas a seleção de links que
 
 #### Requisitos
 - [Node.js](https://nodejs.org/en/)
-- NPM
+- NPM ou Yarn
 
 1. Bem, como eu disse mais à cima, escolhi fazer o bot em javascript, e existe uma biblioteca prontíssima para colocarmos a mão na massa, ela se chama [DiscordJs](https://discord.js.org/#/).
 
 2. Com o node instalado, e o projeto baixado, o que precisamos fazer é abrir o terminal e navegar até a pasta do projeto, e então com
 ```
-npm install 
+npm install ou yarn
 ```
 instalamos todas as dependências que o projeto precisa, incluindo o DiscordJs e o dotenv.
 
